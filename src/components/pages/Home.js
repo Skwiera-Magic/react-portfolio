@@ -6,7 +6,7 @@ function Home() {
         <div class="row">
         </div>
         <div class="row">
-          <div class="jumbotron col-lg offset-lg-1 ">
+          <div class="jumbotron col-lg offset-lg-1">
             <h1 class="display-5">My Portfolio</h1>
             <hr class="my-3" />
             <p class="lead">My best projects</p>

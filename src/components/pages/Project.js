@@ -4,7 +4,7 @@ function Project() {
   return (
     <div>
       <div class="card card-custom border-dark bg-success text-dark">
-        <img src="https://github.com/Skwiera-Magic/knowledge-quiz/blob/main/assets/images/screenshot-quiz.png" class="card-img-top"
+        <img src="https://github.com/Skwiera-Magic/knowledge-quiz/raw/main/assets/images/screenshot-quiz.png" class="card-img-top"
           alt="screenshot of knowledge quiz deplyed" />
         <div class="card-body">
           <h5 class="card-title">Really easy quiz</h5>
