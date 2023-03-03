@@ -3,19 +3,42 @@ import React from "react";
 function ProjectGallery() {
   return (
     <div>
-      <h1>Project Gallery</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-        turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-        Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-        nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi
-        justo laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum
-        tellus eget lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-        placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque
-        vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
-        non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <div class="row">
+        <div class="card card-custom border-dark bg-success text-dark col-lg">
+          <img src="./images/portfolio-beta.png" class="card-img-top" alt="screenshot of previous portfolio deplyed" />
+          <div class="card-body">
+            <h5 class="card-title">Old Portfolio</h5>
+            <p class="card-text">First attempt at portfolio without bootstrap knowledge.</p>
+            <a href="https://skwiera-magic.github.io/portfolio-beta/" class="btn btn-danger text-warning">Check out my progress</a>
+          </div>
+        </div>
+        <div class="card card-custom border-dark bg-success text-dark col-lg">
+          <img src="./images/screenshot-weather.png" class="card-img-top" alt="screenshot of weather dashboard deplyed" />
+          <div class="card-body">
+            <h5 class="card-title">Weather Dashboard</h5>
+            <p class="card-text">Another fiert time :D Here it's with APIs, code looks nightmarish but hey, I'm learning :D</p>
+            <a href="https://skwiera-magic.github.io/weather-dashboard/" class="btn btn-danger text-warning">Check your weather</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card card-custom border-dark bg-success text-dark col-lg">
+          <img src="./images/screenshot-planner.png" class="card-img-top" alt="screenshot of planner-app deplyed" />
+          <div class="card-body">
+            <h5 class="card-title">Day Planner</h5>
+            <p class="card-text">Simple app where you can plan your day, save it for later use, clear everything easly</p>
+            <a href="https://skwiera-magic.github.io/planner-app" class="btn btn-danger text-warning">Not much but still worth trying</a>
+          </div>
+        </div>
+        <div class="card card-custom border-dark bg-success text-dark col-lg">
+          <img src="./images/password-generator.png" class="card-img-top" alt="screenshot of password generator" />
+          <div class="card-body">
+            <h5 class="card-title">Password Generator</h5>
+            <p class="card-text">My first contact with JavaScript since about 2010. Struggled a lot with it but makes me even more proud of myself</p>
+            <a href="https://skwiera-magic.github.io/password-generator" class="btn btn-danger text-warning">Try it!</a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -4,17 +4,19 @@ function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <footer class="container">
+    <div class="row" id="social">
+      <div class="col-2">
+        <h3>Social</h3>
+      </div>
+      <div class="row col-12 col-md-10">
+        <a href="https://www.facebook.com/SkwieraMagic" class="col btn footer-link"><img src="./images/search.png" alt="serach icon"/>Facebook</a>
+        <a href="https://github.com/Skwiera-Magic" class="col btn footer-link"><img src="./images/user.png" alt="user icon"/>GitHub</a>
+        <a href="https://www.youtube.com/user/MrSkwiera" class="col btn footer-link"><img src="./images/search.png" alt="search icon"/>YouTube</a>
+        <a href="https://www.twitch.tv/skwiera_magic" class="col btn footer-link"><img src="./images/shopping-bag.png" alt="shopping bag icon"/>Twitch</a>
+      </div>
+    </div>
+  </footer>
     </div>
   );
 }

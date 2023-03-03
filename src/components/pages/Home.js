@@ -2,19 +2,22 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+      <section class="container-fluid hero">
+        <div class="row">
+        </div>
+        <div class="row">
+          <div class="jumbotron col-lg offset-lg-1 ">
+            <h1 class="display-5">My Portfolio</h1>
+            <hr class="my-3" />
+            <p class="lead">My best projects</p>
+            <p class="jumbotron-text">
+              My precioussss
+            </p>
+            <p id="about">After couple weeks on the bootcamp I finally have enough project to remove stock items from here</p>
+          </div>
+          <div class="col-lg-5"></div>
+        </div>
+      </section>
   );
 }
 

@@ -3,14 +3,16 @@ import React from "react";
 function Project() {
   return (
     <div>
-      <h1>Project Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <div class="card card-custom border-dark bg-success text-dark">
+        <img src="https://github.com/Skwiera-Magic/knowledge-quiz/blob/main/assets/images/screenshot-quiz.png" class="card-img-top"
+          alt="screenshot of knowledge quiz deplyed" />
+        <div class="card-body">
+          <h5 class="card-title">Really easy quiz</h5>
+          <p class="card-text">Had a lot of fun when creating this one</p>
+          <a href="https://skwiera-magic.github.io/knowledge-quiz"
+            class="btn btn-danger text-warning">Are you brave enough?</a>
+        </div>
+      </div>
     </div>
   );
 }
