@@ -1,17 +1,17 @@
 import React from "react";
 
-function Project() {
+function Project(props) {
   return (
-    <div>
-      <div class="card card-custom border-dark bg-success text-dark">
-        <img src="https://github.com/Skwiera-Magic/knowledge-quiz/raw/main/assets/images/screenshot-quiz.png" class="card-img-top"
-          alt="screenshot of knowledge quiz deplyed" />
-        <div class="card-body">
-          <h5 class="card-title">Really easy quiz</h5>
-          <p class="card-text">Had a lot of fun when creating this one</p>
-          <a href="https://skwiera-magic.github.io/knowledge-quiz"
-            class="btn btn-danger text-warning">Are you brave enough?</a>
-        </div>
+    <div class="card card-custom border-dark bg-success text-dark col-lg" id={props.id}>
+      <img src={props.image} class="card-img-top"
+        alt={props.name} />
+      <div class="card-body">
+        <h5 class="card-title">{props.cardTitle}</h5>
+        <p class="card-text">{props.cardText}</p>
+        <a href={props.link}
+          class="btn btn-danger text-warning m-1">{props.buttonText}</a>
+        <a href={props.repo}
+          class="btn btn-warning text-danger">GitHub Repo</a>
       </div>
     </div>
   );

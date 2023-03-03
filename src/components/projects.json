@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "image": "https://github.com/Skwiera-Magic/portfolio-beta/raw/main/images/portfolio.png",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Old Portfolio",
+        "cardText": "First attempt at portfolio without bootstrap knowledge.",
+        "buttonText": "Check out my progress"
+    },
+    {
+        "id": 2,
+        "image": "https://github.com/Skwiera-Magic/weather-dashboard/raw/main/assets/images/screenshot-weather.png",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Really easy quiz",
+        "cardText": "Another first time :D Here it's with APIs, code looks nightmarish but hey, I'm learning :D",
+        "buttonText": "Check your weather"
+    },
+    {
+        "id": 3,
+        "image": "https://github.com/Skwiera-Magic/planner-app/raw/main/assets/images/screenshot-planner.png",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Day Planner",
+        "cardText": "Simple app where you can plan your day, save it for later use, clear everything easly",
+        "buttonText": "Not much but still worth trying"
+    },
+    {
+        "id": 4,
+        "image": "https://github.com/Skwiera-Magic/password-generator/raw/main/images/screenshot.png",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Password Generator",
+        "cardText": "My first contact with JavaScript since about 2010. Struggled a lot with it but makes me even more proud of myself",
+        "buttonText": "Try it!"
+    },
+    {
+        "id": 5,
+        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Really easy quiz",
+        "cardText": "Had a lot of fun when creating this one",
+        "buttonText": "Are you brave enough?"
+    },
+    {
+        "id": 6,
+        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Really easy quiz",
+        "cardText": "Had a lot of fun when creating this one",
+        "buttonText": "Are you brave enough?"
+    },
+    {
+        "id": 7,
+        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Really easy quiz",
+        "cardText": "Had a lot of fun when creating this one",
+        "buttonText": "Are you brave enough?"
+    },
+    {
+        "id": 8,
+        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Really easy quiz",
+        "cardText": "Had a lot of fun when creating this one",
+        "buttonText": "Are you brave enough?"
+    },
+    {
+        "id": 9,
+        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Really easy quiz",
+        "cardText": "Had a lot of fun when creating this one",
+        "buttonText": "Are you brave enough?"
+    },
+    {
+        "id": 10,
+        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Really easy quiz",
+        "cardText": "Had a lot of fun when creating this one",
+        "buttonText": "Are you brave enough?"
+    },
+    {
+        "id": 11,
+        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Really easy quiz",
+        "cardText": "Had a lot of fun when creating this one",
+        "buttonText": "Are you brave enough?"
+    },
+    {
+        "id": 12,
+        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+        "link": "",
+        "repo": "",
+        "cardTitle": "Really easy quiz",
+        "cardText": "Had a lot of fun when creating this one",
+        "buttonText": "Are you brave enough?"
+    }
+]
