@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function NavTabs() {
+function Header() {
   return (
     <ul className="nav nav-tabs">
     <li className="nav-item">
@@ -17,22 +17,22 @@ function NavTabs() {
     </li>
     <li className="nav-item">
       <NavLink
-        to="/react-portfolio/about"
+        to="/react-portfolio/project"
         className={({ isActive }) =>
           isActive ? 'nav-link active' : 'nav-link'
         }
       >
-        About
+        Project
       </NavLink>
     </li>
     <li className="nav-item">
       <NavLink
-        to="/react-portfolio/blog"
+        to="/react-portfolio/project-gallery"
         className={({ isActive }) =>
           isActive ? 'nav-link active' : 'nav-link'
         }
       >
-        Blog
+        Project Gallery
       </NavLink>
     </li>
     <li className="nav-item">
@@ -50,4 +50,4 @@ function NavTabs() {
   );
 }
 
-export default NavTabs;
+export default Header;
