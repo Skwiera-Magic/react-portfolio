@@ -2,8 +2,8 @@
     {
         "id": 1,
         "image": "https://github.com/Skwiera-Magic/portfolio-beta/raw/main/images/portfolio.png",
-        "link": "",
-        "repo": "",
+        "link": "https://skwiera-magic.github.io/portfolio",
+        "repo": "https://github.com/Skwiera-Magic/portfolio-beta",
         "cardTitle": "Old Portfolio",
         "cardText": "First attempt at portfolio without bootstrap knowledge.",
         "buttonText": "Check out my progress"
@@ -11,17 +11,17 @@
     {
         "id": 2,
         "image": "https://github.com/Skwiera-Magic/weather-dashboard/raw/main/assets/images/screenshot-weather.png",
-        "link": "",
-        "repo": "",
-        "cardTitle": "Really easy quiz",
+        "link": "https://skwiera-magic.github.io/weather-dashboard",
+        "repo": "https://github.com/Skwiera-Magic/weather-dashboard",
+        "cardTitle": "Weather Dashboard",
         "cardText": "Another first time :D Here it's with APIs, code looks nightmarish but hey, I'm learning :D",
         "buttonText": "Check your weather"
     },
     {
         "id": 3,
         "image": "https://github.com/Skwiera-Magic/planner-app/raw/main/assets/images/screenshot-planner.png",
-        "link": "",
-        "repo": "",
+        "link": "https://skwiera-magic.github.io/planner-app/",
+        "repo": "https://github.com/Skwiera-Magic/planner-app",
         "cardTitle": "Day Planner",
         "cardText": "Simple app where you can plan your day, save it for later use, clear everything easly",
         "buttonText": "Not much but still worth trying"
@@ -29,29 +29,29 @@
     {
         "id": 4,
         "image": "https://github.com/Skwiera-Magic/password-generator/raw/main/images/screenshot.png",
-        "link": "",
-        "repo": "",
+        "link": "https://skwiera-magic.github.io/password-generator",
+        "repo": "https://github.com/Skwiera-Magic/password-generator",
         "cardTitle": "Password Generator",
         "cardText": "My first contact with JavaScript since about 2010. Struggled a lot with it but makes me even more proud of myself",
         "buttonText": "Try it!"
     },
     {
         "id": 5,
-        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-        "link": "",
-        "repo": "",
-        "cardTitle": "Really easy quiz",
-        "cardText": "Had a lot of fun when creating this one",
-        "buttonText": "Are you brave enough?"
+        "image": "https://github.com/Skwiera-Magic/Food-Recipe-Finder/raw/main/assets/images/screenshot-food-finder.png",
+        "link": "https://pixelfobia.github.io/Food-Recipe-Finder/",
+        "repo": "https://github.com/Skwiera-Magic/Food-Recipe-Finder",
+        "cardTitle": "Food Recipe Finder",
+        "cardText": "This one was team effort, you can find recipes for your food and possibly have some laugh when doing it",
+        "buttonText": "This one I'm quite proud of"
     },
     {
         "id": 6,
-        "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-        "link": "",
-        "repo": "",
-        "cardTitle": "Really easy quiz",
-        "cardText": "Had a lot of fun when creating this one",
-        "buttonText": "Are you brave enough?"
+        "image": "https://github.com/Skwiera-Magic/accessibility-optimization/raw/main/Assets/images/screenshot.png",
+        "link": "https://skwiera-magic.github.io/accessibility-optimization/",
+        "repo": "https://github.com/Skwiera-Magic/accessibility-optimization",
+        "cardTitle": "Accessibility Optimization",
+        "cardText": "Most of the code was provided, I just had to make it work",
+        "buttonText": "Give it a try"
     },
     {
         "id": 7,
