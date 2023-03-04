@@ -12,7 +12,7 @@ function Contact() {
             <a href="https://www.youtube.com/user/MrSkwiera" class="col-6 col-md btn footer-link" target="_blank" rel="noreferrer"><img src="http://icongal.com/gallery/image/4011/youtube.png" alt="YouTube icon" />YouTube</a>
             <a href="https://www.twitch.tv/skwiera_magic" class="col-6 col-md btn footer-link" target="_blank" rel="noreferrer"><img src="https://www.iconninja.com/files/737/596/877/black-twitch-icon.png" alt="Twitch icon" />Twitch</a>
             <a href="https://www.linkedin.com/in/mskwierawski" class="col-6 col-md btn footer-link" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/1x/linkedin.png" alt="LinkedIn icon" />LinkedIn</a>
-            <a href="" class="col-6 col-md btn footer-link" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/1x/linkedin.png" alt="LinkedIn icon" />Resume</a>
+            <a href="https://github.com/Skwiera-Magic/react-portfolio/blob/main/src/components/Profile.pdf" class="col-6 col-md btn footer-link" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/ios-glyphs/1x/linkedin.png" alt="LinkedIn icon" />Resume</a>
           </div>
         </div>
       </footer>
