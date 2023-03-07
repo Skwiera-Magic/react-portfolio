@@ -17,7 +17,7 @@ function Header() {
     </li>
     <li className="nav-item">
       <NavLink
-        to="/react-portfolio/project-gallery"
+        to="/react-portfolio/project-gallery/"
         className={({ isActive }) =>
           isActive ? 'nav-link active bg-primary text-white' : 'nav-link text-black'
         }
@@ -27,7 +27,7 @@ function Header() {
     </li>
     <li className="nav-item">
       <NavLink
-        to="/react-portfolio/contact"
+        to="/react-portfolio/contact/"
         end
         className={({ isActive }) =>
           isActive ? 'nav-link active bg-primary text-white' : 'nav-link text-black'
