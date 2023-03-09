@@ -2,7 +2,7 @@ import React from "react";
 
 function Project(props) {
   return (
-    <div class="card card-custom border-dark bg-success text-dark col-md-5 col-lg-4 mt-1 mb-1" id={props.id}>
+    <div class="card card-custom border-dark bg-success text-dark col-md-5 col-lg-4 mt-1 mb-1 p-1" id={props.id}>
       <img src={props.image} class="card-img-top"
         alt={props.name} />
       <div class="card-body">
