@@ -1,15 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Header from "./components/Header";
 import Home from "./components/pages/Home";
 import ProjectGallery from "./components/pages/ProjectGallery";
-import Contact from "./components/pages/Contact"
+import Contact from "./components/pages/Contact";
 
 
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div>
         <Header />
         <Routes basename="react-portfolio">
@@ -18,7 +18,7 @@ function App() {
           <Route path="/react-portfolio/contact/" element={<Contact />} />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
