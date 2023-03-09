@@ -6,7 +6,7 @@ function Header() {
     <ul className="nav nav-tabs bg-info">
     <li className="nav-item">
       <NavLink
-        to="/react-portfolio"
+        to="/"
         end
         className={({ isActive }) =>
           isActive ? 'nav-link active bg-primary text-white' : 'nav-link text-black'
@@ -17,7 +17,7 @@ function Header() {
     </li>
     <li className="nav-item">
       <NavLink
-        to="/react-portfolio/project-gallery/"
+        to="/project-gallery/"
         className={({ isActive }) =>
           isActive ? 'nav-link active bg-primary text-white' : 'nav-link text-black'
         }
@@ -27,7 +27,7 @@ function Header() {
     </li>
     <li className="nav-item">
       <NavLink
-        to="/react-portfolio/contact/"
+        to="/contact/"
         end
         className={({ isActive }) =>
           isActive ? 'nav-link active bg-primary text-white' : 'nav-link text-black'
