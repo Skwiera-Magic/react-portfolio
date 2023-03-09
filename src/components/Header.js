@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <ul className="nav nav-tabs bg-info">
+    <ul className="nav nav-tabs bg-info border-bottom border-primary">
     <li className="nav-item">
       <NavLink
         to="/"

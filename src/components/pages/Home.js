@@ -5,7 +5,7 @@ function Home() {
     <section class="container-fluid hero">
       <div class="row">
         <div class="col-md-3"></div>
-        <div class="jumbotron col-md bg-light rounded-5">
+        <div class="jumbotron col-md bg-light rounded-5 border m-1">
           <h1 class="display-5">My Portfolio</h1>
           <hr class="my-3" />
           <p class="lead">My best projects</p>
@@ -18,7 +18,7 @@ function Home() {
       </div>
       <div class="row">
         <div class="col-md-4" />
-        <div class="col-md-4 about bg-light rounded-3">
+        <div class="col-md-4 about bg-light rounded-3 border mb-1">
           <h3>About me</h3>
           <p>👋 Hi, I’m Skwiera-Magic</p>
           <p>I’m interested in all things related with new tech and ways of using it effectively to make life easier</p>
