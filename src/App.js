@@ -12,7 +12,7 @@ function App() {
     <HashRouter>
       <div>
         <Header />
-        <Routes basename="react-portfolio">
+        <Routes basename="/react-portfolio">
           <Route path="/react-portfolio" element={<Home />} />
           <Route path="/react-portfolio/project-gallery/" element={<ProjectGallery />} />
           <Route path="/react-portfolio/contact/" element={<Contact />} />
